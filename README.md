@@ -11,15 +11,6 @@ StockPulse is a lightweight Python-based stock price tracker that runs on an AWS
 - API key management using `.gitignore`
 - Hosted on an AWS EC2 instance
 
-## Project Structure
-
-stockpulse/
-├── app.py           # Python script to fetch stock prices
-├── config.py        # Stores API key (not committed)
-├── fetch.sh         # Shell script to run app.py and log output
-├── stock_log.txt    # Log file for tracking results
-└── .gitignore       # Ignores config.py and logs in Git
-
 ## Requirements
 
 - Python 3
